@@ -29,6 +29,7 @@ class CreateHolidaysTable extends Migration
             $table->unsignedTinyInteger('people');
    
             $table->timestamps();
+
         });
     }
 
